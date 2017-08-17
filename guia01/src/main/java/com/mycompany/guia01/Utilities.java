@@ -25,6 +25,7 @@ public class Utilities {
     public String capitalizar(String texto){
         String cadena="";
         texto.replaceAll("  ", " ");
+        cadena += String.valueOf(texto.charAt(0)).toUpperCase();
         for(int i=1; i<texto.length();i++){
             if(texto.charAt(i-1)==' ' || texto.charAt(i)==' ' ){
                 cadena += String.valueOf(texto.charAt(i)).toUpperCase();
@@ -37,6 +38,8 @@ public class Utilities {
     }
     
     public int contarCoincidencias(String frase, String texto){
+        
+        
         return 0;
     }
 }

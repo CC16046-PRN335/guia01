@@ -4,8 +4,11 @@ package com.mycompany.guia01;
 
 public class Utilities {
   String texto;
-  /* Este metodo se encarga de extraer los primeros 30 caracteres de una cadena de texto a traves de la variable llamada "cadena"
-  que se encarga de ir guardando cada caracter para despues pasarlo a la variable "resume" e imprimir los caracteres*/
+  /**
+   * El método getResume se encarga de extraer los primeros 30 caracteres de un texto.
+   * @param texto
+   * @return texto
+   */
     public String getResume(String texto){
         String cadena="";
         for(int i=0;i<30;i++){
@@ -14,7 +17,11 @@ public class Utilities {
         texto=cadena;
         return texto;   
     }
-    
+    /**
+     * El método capitalizar se encarga de cambiar la primer letra de una palabra por esa misma letra en mayúscula.
+     * @param texto
+     * @return texto
+     */
     public String capitalizar(String texto){
         String cadena="";
         texto.replaceAll("  ", " ");
@@ -27,5 +34,9 @@ public class Utilities {
             }
         }
         return cadena;
+    }
+    
+    public int contarCoincidencias(String frase, String texto){
+        return 0;
     }
 }

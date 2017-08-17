@@ -15,8 +15,11 @@ import javax.swing.JOptionPane;
 public class NewClass {
     public static void main(String[] args) {
         Utilities u = new Utilities();
+        
         String cadena="reree gfgfdf fdfhgfgh gfgfdf gfgfdf gfgfdf gfgfdf gfgfdf gfgfdf";
         String frase="gfgfdf";
+        JOptionPane.showMessageDialog(null,u.getResume(cadena));
+        JOptionPane.showMessageDialog(null,u.capitalizar(cadena));
         JOptionPane.showMessageDialog(null,"numero de coincidencias "+u.contarCoincidencias(frase, cadena));
         
        

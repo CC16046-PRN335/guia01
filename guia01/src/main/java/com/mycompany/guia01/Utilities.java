@@ -36,7 +36,12 @@ public class Utilities {
         }
         return cadena;
     }
-    
+    /**
+     * El metodo contarCoincidencias cuenta las veces que una frase se repite en un texto.
+     * @param frase
+     * @param texto
+     * @return coincidencia
+     */
     public int contarCoincidencias(String frase, String texto){
         int coincidencia=0,posicion=0;
 

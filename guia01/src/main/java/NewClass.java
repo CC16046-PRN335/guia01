@@ -19,7 +19,6 @@ public class NewClass {
         String frase="gfgfdf";
         JOptionPane.showMessageDialog(null,"numero de coincidencias "+u.contarCoincidencias(frase, cadena));
         
-        
-        
+       
     }
 }

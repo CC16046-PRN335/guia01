@@ -38,8 +38,16 @@ public class Utilities {
     }
     
     public int contarCoincidencias(String frase, String texto){
+        boolean encontrado=false;
+        int coincidencia=0;
+//        for(int i=0;i<texto.length();i++){
+            if(texto.contains(frase));{
+                encontrado=true;
+                coincidencia++;
+            
+            }
+//        }
         
-        
-        return 0;
+        return coincidencia;
     }
 }
